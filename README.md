@@ -1,7 +1,7 @@
 # HeavyStringFilteringAPP
 Web API that accepts a very long text string in chunks, stores it, and sends the full text to a background queue. The filtering logic will run in the background using in-memory filtering rules .
-# HeavyStringFilteringAPP (.NET 8 Clean Architecture)
 
+# HeavyStringFilteringAPP (.NET 8 Clean Architecture)
 This is  Clean Architecture Web API project built with .NET 8.
 
 ## ✅ Features
