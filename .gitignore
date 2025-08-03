@@ -1,0 +1,16 @@
+bin/
+obj/
+*.user
+*.suo
+*.vsp
+*.pdb
+*.cache
+*.log 
+.vs/
+TestResults/
+*.db
+*.sqlite
+.env
+*.swp
+.DS_Store
+.idea/

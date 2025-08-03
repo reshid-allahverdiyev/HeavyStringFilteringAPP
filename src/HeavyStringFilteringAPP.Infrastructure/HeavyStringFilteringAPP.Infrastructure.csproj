@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+ 
+  <ItemGroup>
+    <ProjectReference Include="..\HeavyStringFilteringAPP.Core\HeavyStringFilteringAPP.Core.csproj" />
+    <ProjectReference Include="..\HeavyStringFilteringAPP.Application\HeavyStringFilteringAPP.Application.csproj" />
+  </ItemGroup>
+
+ 
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Hosting.Abstractions" Version="9.0.7" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="9.0.7" />
+  </ItemGroup>
+ 
+ 
+
+</Project>

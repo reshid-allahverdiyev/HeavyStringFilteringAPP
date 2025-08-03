@@ -1,0 +1,26 @@
+// .vscode/launch.json
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": ".NET Core Launch (web)",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "build",
+      "program": "${workspaceFolder}/src/HeavyStringFilteringAPP.API/bin/Debug/net8.0/HeavyStringFilteringAPP.API.dll",
+      "args": [],
+      "cwd": "${workspaceFolder}/src/HeavyStringFilteringAPP.API",
+      "stopAtEntry": false,
+      "serverReadyAction": {
+        "action": "openExternally",
+        "pattern": "\\bNow listening on:\\s+(https?://\\S+)"
+      },
+      "env": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "sourceFileMap": {
+        "/Views": "${workspaceFolder}/src/HeavyStringFilteringAPP.API/Views"
+      }
+    }
+  ]
+}
